@@ -1,0 +1,19 @@
+#sombra:hover {
+    transform: translate(-10px, -10px);
+    box-shadow: 10px 5px 5px black;
+    opacity: 0.6;
+    transition: 1.5s;
+}
+
+#plano-de-aula:hover {
+    transform: translate(-6px, -6px);
+    box-shadow: 10px 5px 5px black;
+    opacity: 0.7;
+    transition: 1.5s;
+}
+#cursos-online:hover{
+    transform: translate(-6px, -6px);
+    box-shadow: 10px 5px 5px black;
+    opacity: 0.7;
+    transition: 1.5s;
+}

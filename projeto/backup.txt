@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DK </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dk.css">
+</head>
+
+<body>
+
+
+
+    <!-- menu -->
+    <div id="header">
+        <a href="#home"><img src="logo.png" alt="Imagem" class="logo"></a>
+        <h1>Didacti Kids</h1>
+        <a href="/login/index.html" class="login">login</a>
+    </div>
+    <nav>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">produtos</a>
+                <ul>
+                    <li><a href="#">produto1</a></li>
+                    <li><a href="#">produto2</a></li>
+                    <li><a href="#">produto3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">encomenda</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+    <!-- meio da pagina -->
+    <div class="titulo">
+
+        <h1 class="t1">Bem vindo a Didacti Kids English</h1>
+        <img src="logo2.png" alt="" class="logo2">
+
+    </div>
+    <div class="espaco">
+
+
+        <div class="texto">
+            <img src="bandeira.png" alt="" class="bandeira">
+
+            <h2>Educação bilíngue de qualidade para o seu filho:</h2>
+            <p>somos uma empresa de educacao bilingue com foco em educacao infantil.Oferecemos os melhores <br>
+                produtos e serviços para ajudar no desenvolvimento dos eu filho
+            </p>
+            <div class="p_crianca"><img src="desenho_animado.png" alt="" class="crianca"></div>
+            
+        </div>
+    </div>
+
+
+    <!-- rodape -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+
+                <h3>Sobre nós:</h3>
+                <p>Procurando uma escola de inglês de qualidade para seu filho? Nós somos a escolha certa! Com mais de
+                    10 anos de experiência no ensino de línguas, oferecemos cursos para todas as idades e níveis. Nossos
+                    professores são altamente qualificados e nossas aulas são divertidas e interativas. Venha nos
+                    conhecer e descubra como podemos ajudar seu filho a aprender inglês de forma eficaz e divertida!</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contato</h3>
+                <ul>
+                    <li><a href="#">Endereço</a></li>
+                    <li><a href="#">Telefone</a></li>
+                    <li><a href="#">Email</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Redes sociais</h3>
+                <ul>
+                    <img src="Facebook.png" alt="" class="facebook" >
+                    <li><a href="https://pt-br.facebook.com/" target="_blank">Facebook</a></li>
+                    <img src="twitter.png" alt="" class="twitter">
+                    <li><a href="https://twitter.com/i/flow/login" target="_blank">Twitter</a></li>
+                    <img src="Instagram.png" alt="" class="instagram">
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
+
+texto=nossa empresa tem 10 anos de historia pautada em projetos conceituados no aprendizado infantild de forma didatica e divertida.
+ pensando na qualidade de ensino infantil nossos produtos atendem criancas com diversos niveis intelectuais de forma pratica e diver-
+ tida,tambem temos a opcao de fazer projeto conforme as necessidades da sua criança a didacti Kids English é uma empresa focada na producao de materiais didaticos

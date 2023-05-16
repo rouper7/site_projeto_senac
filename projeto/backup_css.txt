@@ -1,0 +1,304 @@
+@media screen and (min-width: 800px) {
+
+    /* bakcgorund */
+
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        padding: 0;
+        margin: 0;
+        height: 100vh;
+
+
+    }
+
+    #header {
+        background-color: green;
+        color: white;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: top;
+    }
+
+    #header img {
+
+        float: left;
+
+    }
+
+    #header h1 {
+        margin: 0;
+        padding-left: 20px;
+        display: inline;
+    }
+
+    .menu {
+        background-color: lightgreen;
+        list-style: none;
+
+        float: left;
+        margin: 0;
+        width: 100%;
+
+    }
+
+    .menu li {
+        position: relative;
+        float: left;
+
+    }
+
+    .menu li a {
+        color: #333;
+        text-decoration: none;
+        padding: 10px 10px;
+        display: block;
+    }
+
+    .menu li a:hover {
+        background: green;
+        color: #fff;
+        /* -moz-box-shadow: 0 3px 10px 0 #CCC;
+        -webkit-box-shadow: 0 3px 10px 0 #ccc; */
+        text-shadow: 0px 0px 5px #fff;
+    }
+
+    .menu li ul {
+        position: absolute;
+        top: 25px;
+        left: 0;
+        background-color: lightgreen;
+        display: none;
+        margin: 10px, 0, 0, 0;
+        padding: 0;
+        margin-top: 12px;
+        /* add space below the dropdown menu */
+    }
+
+
+
+    .menu li:hover ul,
+    .menu li.over ul {
+        display: block;
+    }
+
+    .menu li ul li {
+
+        display: block;
+        /* width: 150px; */
+    }
+
+
+    .logo {
+        width: 65px;
+        height: 65px;
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+        min-width: 65px;
+        max-height: 65px;
+
+    }
+
+    .logo:hover {
+        opacity: 0.5;
+        box-shadow: 1px 1px 1px #321AB8;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .footer-section ul li {
+        display: inline-block;
+    }
+
+    .footer-section ul li a {
+        display: block;
+    }
+
+    /* -------------------------menu-------------- */
+
+
+
+    .titulo {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .t1 {
+        display: inline-block;
+    }
+
+    .login {
+        text-align: right;
+        float: right;
+        text-decoration: none;
+        margin-left: 80%;
+        font-size: 25px;
+        color: white;
+    }
+
+    .login:hover {
+        color: lightgreen;
+    }
+
+
+    .logo2 {
+        width: 80px;
+        height: 90px;
+        display: inline;
+        min-width: 80px;
+        max-width: auto;
+    }
+
+    .bandeira {
+        width: 58px;
+        height: 50px;
+        float: left;
+        margin-right: 0px;
+        max-width: auto;
+
+    }
+
+    .espaco {
+        display: flex;
+        justify-content: center;
+        padding: 0px, 10px, 0px, 10px;
+        max-width: auto;
+    }
+
+    .p_crianca {
+        display: flex;
+        justify-content: center;
+    }
+
+    .crianca {
+        width: 225px;
+        height: 225px;
+    }
+
+    .crianca:hover {
+        transition: 1s;
+        opacity: 0.5;
+
+    }
+
+    .texto {
+        margin-top: 20px;
+        display: inline-block;
+        flex-direction: column;
+        justify-content: center;
+
+        border-width: 3px;
+        border-style: dashed;
+        border-color: lightgreen;
+        padding: 10px;
+        margin: 0px, 100px, 0px, 100px;
+        position: absolute;
+
+
+
+    }
+
+    .texto p {
+        text-align: center;
+    }
+
+
+    /* rodape */
+
+    footer {
+        background-color: green;
+        color: white;
+        padding: 20px;
+        margin: 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-section {
+        width: calc(33.33% - 20px);
+    }
+
+    .footer-section h3 {
+        margin-bottom: 10px;
+    }
+
+    .footer-section ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .footer-section ul li {
+        display: block;
+    }
+
+    .footer-section li a {
+        color: white;
+        text-decoration: none;
+        display: block;
+    }
+
+    .footer-section li a:hover {
+        color: lightgreen;
+    }
+
+    .facebook {
+        width: 15px;
+        float: left;
+        max-width: auto;
+    }
+
+    .twitter {
+        width: 15px;
+        float: left;
+        max-width: auto;
+    }
+
+
+    .instagram {
+        width: 15px;
+        float: left;
+        max-width: auto;
+    }
+
+
+    /* loop cores */
+
+    .t1 {
+        animation: colorchange 4s infinite;
+    }
+
+    @keyframes colorchange {
+        0% {
+            color: red;
+        }
+
+        33% {
+            color: rgb(202, 202, 202);
+        }
+
+        66% {
+            color: blue;
+        }
+    }
+}
